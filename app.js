@@ -48,7 +48,6 @@ const clientConnected = (connection, tobias, slack)  => {
 const start = async() => {
   const url = 'https://slack.com/api/rtm.start?token=xoxb-154642148432-lEfPnIfhiHJTwbnGZp5JFOAY'
   const authenication = await rp(url).then(response => JSON.parse(response))
-  const socketUrl = authenication.url
 
   const tobias = new Tobias()
   const slackClient = new WebSocketClient()
