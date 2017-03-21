@@ -1,21 +1,17 @@
 {
-  "name": "tobias-slackbot",
+  "name": "tiny-slackbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.JS Slackbot",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikaelahlinder/tobias-slackbot.git"
+    "url": "git+https://github.com/mikaelahlinder/tiny-slackbot.git"
   },
   "author": "Mikael Ahlinder",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mikaelahlinder/tobias-slackbot/issues"
-  },
-  "homepage": "https://github.com/mikaelahlinder/tobias-slackbot#readme",
   "dependencies": {
     "request": "^2.81.0",
     "request-promise": "^4.2.0",
