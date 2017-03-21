@@ -1,1 +1,1 @@
-# tobias-slackbot
+# tiny-slackbot
