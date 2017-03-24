@@ -1,16 +1,12 @@
 {
-  "name": "tiny-slackbot",
+  "name": "sune-slackbot",
   "version": "1.0.0",
   "description": "Node.JS Slackbot",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mikaelahlinder/tiny-slackbot.git"
-  },
-  "author": "Mikael Ahlinder",
+  "author": "Aptitud",
   "license": "MIT",
   "dependencies": {
     "request": "^2.81.0",
